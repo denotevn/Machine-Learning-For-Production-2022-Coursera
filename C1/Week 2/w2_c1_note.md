@@ -1,4 +1,4 @@
-## Modeling
+## **Selecting and Training a Model**
  + Select train model
  + Perform error analysis
  + how to improve your model
@@ -44,3 +44,5 @@
  > Sanity-check for code and algorithm (kiem tra do chinh xac cua ma va thaut toan)
  + Try to overfit a small training datasets before training on a large one.
  + Try to training with a small datasets help us save time for training
+## **Error analysis and performance auditing**
+### Error analysis example
