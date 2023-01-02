@@ -52,4 +52,12 @@
     + then send labeling instruction to labelers
     + Can consider having multiple labelers label every example and using voting or consensus labels to increase accurancy
 ### Human level performance (HLP):
-  + Why measure HLP: Estimate bayes error/ irreducible error to help with error analysis and prioritization. Esspesially on unstrutured data tasks in oder to help with their analysis and prioritization and jus establish what might be possible. 
+  + Why measure HLP: Estimate bayes error/ irreducible error to help with error analysis and prioritization. Esspesially on unstrutured data tasks in oder to help with their analysis and prioritization and jus establish what might be possible.
+  + Other use of HLP:
+    + In academica, establish and beat a respectable benchmark to support publication
+    + Bussiness or product owner asks for 99% accurancy. HPL helps establish a more resonable target. 
+    + Prove the ML system is superior to humans doing the job and thus the business or product owner should adopt it with crusial. 
+    + In fact, HLP usually use for establish baseline, analysis error and prioritization. But using it to benchmark machines  and human sometimes runs into problematic case. 
+### Raise Human Level Performance (HLP):
+  + We raise HLP by improving label consistency and that ultimately results in better learning outcomes performance as well.
+  + When the ground truth is defined by a human, maybe even a doctor labeled an X-ray image, then HLP is just measuring how well can one doctor predict another doctor's label versus how well can one learning algorithm predict another doctor's label. That too is useful, but it's different than if you're measuring how well you versus a doctor are predicting some ground truth outcome from a medical biopsy
