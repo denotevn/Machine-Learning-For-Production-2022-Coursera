@@ -61,3 +61,36 @@
 ### Raise Human Level Performance (HLP):
   + We raise HLP by improving label consistency and that ultimately results in better learning outcomes performance as well.
   + When the ground truth is defined by a human, maybe even a doctor labeled an X-ray image, then HLP is just measuring how well can one doctor predict another doctor's label versus how well can one learning algorithm predict another doctor's label. That too is useful, but it's different than if you're measuring how well you versus a doctor are predicting some ground truth outcome from a medical biopsy
+
+### Label and Organize Data
+  + Level consistent label of data help improve HLP
+  + POC :
+    + Goal is decide if the application is workable and worth deploying 
+    + Focus on getting the prototype to work
+    + It's ok if data pre-processing is manual. But take extensive notes/comments
+  + Production phases:
+    + After project utility is established , use more sophisticated tools to make sure the data pipeline is replicable 
+    + Eg. Tensorflow Transform, Apache Beam, Airflow, ..
+### Metadata:
+  + For some applications, having and tracking metadata, data provenance, and data lineage can be a big help
+  + For example, in manufacturing visual inspection, the data would be the pictures of phones and the labels but if you have metadata that tells you what time was this picture of a phone taken, what factory was this picture from, what's the line number, what were the camera settings such as camera exposure time and camera aperture, what's the number of the phone you're inspecting, what's the ID of the inspector that provided this label. These are examples of data about your dataset X and Y.
+  + To summarize, metadata can be very useful for error analysis and spotting unexpected effects or tags or categories of data that have some unusually poor performance or something else, to suggest how to improve your system.
+### Scoping data:
+  + Scoping examples. Ecommerce retailer looking to increase sales:
+    + Better recommender system
+    + Better search
+    + Improve catalog data
+    + Invetory managment
+    + Proce optimazation
+  + Scoping process:
+    + share with you a process for scoping projects, that hope will be valuable for how you decide what to work on
+    + scoping process: 
+      + Brainstorm business problems (not AI problems)
+      + Brainstorm AI solutions
+      + Assess the feasibility and value of potential solution
+      + Determin milestones
+      + Budget for resource
+  + **To be more information, see lecture of week 3**
+### Diligence on feasibility and value:
+  + How do you know if this thing can even be built? 
+    + Use external benchmark(literature, other company, competitor)
