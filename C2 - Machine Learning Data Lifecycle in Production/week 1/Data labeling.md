@@ -8,3 +8,9 @@
 3. A cardiologist labeling MRI images is a typical example of Direct Labeling.
   + False
   > MRI labeling by a medical specialist is an example of **Human Labeling**
+
+## **Validating Data**
+### Detecting Data Issues
+  + Drift and skew
+    + Drift: Changes in data over time, such as data collected once a day
+    + Skew: Difference between two static versions, or different sources, such as training set and serving set
