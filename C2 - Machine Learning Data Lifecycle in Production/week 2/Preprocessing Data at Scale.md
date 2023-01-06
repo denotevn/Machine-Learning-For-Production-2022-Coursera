@@ -36,4 +36,5 @@
       + Works in-line during both training and serving
       + No need for preprocessing code at serving time
       + Consistently applied transformations irrespective of deployment platform
+   + ![Examples](https://github.com/denotevn/Machine-Learning-For-Production-2022/blob/main/C2%20-%20Machine%20Learning%20Data%20Lifecycle%20in%20Production/week%202/images/tensorflow_for%20ML%20production.png) 
 
