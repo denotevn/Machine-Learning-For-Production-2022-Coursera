@@ -1,0 +1,5 @@
+## Some key concepts
+  + You just read about Docker images and might be wondering what they are. Now you will be introduced to three key concepts to understand how Docker works. These are Dockerfiles, images and containers, and will be explained in this order as each one uses the previous ones.
+    + ***Dockerfile:*** This is a special file that contains all of the instructions required to build an image. These instructions can be anything from "install Python version 3.7" to "copy my code inside the image".
+    + ***Image:*** This refers to the collection of all your software in one single place. Using the previous example, the image will include Python, Tensorflow, JAX and your code. This will be achieved by setting the appropriate instructions within the Dockerfile.
+    + ***Container:*** This a running instance of an image. Images by themselves don't do much aside from saving the information of your code and its dependencies. You need to run a container out of them to actually run the code within. Containers are usually meant to perform a single task but they can be used as runtimes to run software that you haven't installed.
