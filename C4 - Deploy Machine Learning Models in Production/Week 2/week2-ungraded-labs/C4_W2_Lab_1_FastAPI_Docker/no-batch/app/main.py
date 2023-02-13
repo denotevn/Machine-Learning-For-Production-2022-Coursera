@@ -61,4 +61,4 @@ def predict(wine: Wine):
     pred = clf.predict(data_point).tolist()
     pred = pred[0]
     print(pred)
-    return {"Prediction of Wine is ": pred}
+    return {"Prediction": pred}
